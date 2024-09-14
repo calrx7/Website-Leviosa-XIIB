@@ -21,7 +21,12 @@ const Footer = () => {
 							<ul class="text-gray-400 dark:text-gray-400 font-medium">
 								<li class="mb-2">
 									<a href="https://www.instagram.com/ditutinaa__/?hl=id" class="hover:underline">
-										CALORA
+										Leviosa
+									</a>
+								<li>
+								</li>
+								<a href="https://www.instagram.com/ditutinaa__/?hl=id" class="hover:underline">
+										Calora
 									</a>
 								</li>
 							</ul>
@@ -29,7 +34,7 @@ const Footer = () => {
 						<div className="">
 							<h2 class="mb-4 text-sm font-semibold uppercase text-white">Follow us</h2>
 							<ul class="text-gray-400 dark:text-gray-400 font-medium">
-							<li class="mb-2">
+							<li class="mb-1">
 								
 									<a href="https://www.instagram.com/ditutinaa__/?hl=id" class="hover:underline ">
 										Instagram

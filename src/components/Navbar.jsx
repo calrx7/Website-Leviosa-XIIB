@@ -37,12 +37,12 @@ const Navbar = () => {
 					<ul className="mt-8">
 						<li className="mb-4">
 							<a href="#" className="text-white opacity-80 text-lg font-bold">
-								Home
+								Beranda
 							</a>
 						</li>
 						<li className="mb-4">
 							<a href="#Gallery" className="text-white opacity-80 text-lg font-bold">
-								Gallery
+								Galleri
 							</a>
 						</li>
 						<li>
@@ -62,12 +62,12 @@ const Navbar = () => {
 				<ul className="mt-2 flex gap-5">
 					<li className="mb-4">
 						<a href="#" className="text-white opacity-80 text-[1rem] font-semibold">
-							Home
+							Beranda
 						</a>
 					</li>
 					<li className="mb-4">
 						<a href="#Gallery" className="text-white opacity-80 text-[1rem] font-semibold">
-							Gallery
+							Galeri
 						</a>
 					</li>
 					<li>
