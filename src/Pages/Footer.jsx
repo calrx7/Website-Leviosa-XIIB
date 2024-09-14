@@ -8,7 +8,7 @@ const Footer = () => {
 					<div class="mb-6 md:mb-0">
 						<a href="#" class="flex items-center">
 							<img
-								src="/LogoTKJ3.png"
+								src="/LogoLEVIOSA.jpg"
 								alt=""
 								className="h-[4.5rem] w-[4.5rem] right-2 relative rounded-full brightness-200"
 							/>
