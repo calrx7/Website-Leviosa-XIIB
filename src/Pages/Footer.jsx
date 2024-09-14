@@ -26,7 +26,7 @@ const Footer = () => {
 								<li>
 								</li>
 								<a href="https://www.instagram.com/ditutinaa__/?hl=id" class="hover:underline">
-										Calora
+										CaloraX
 									</a>
 								</li>
 							</ul>
@@ -64,7 +64,7 @@ const Footer = () => {
 				<div class="sm:flex sm:items-center sm:justify-between">
 					<div class="flex mt-4 justify-center sm:mt-0">
 						<p className="text-[0.7rem] text-white opacity-70">
-							© {new Date().getFullYear()} LEVIOSA XII B | Di Kelola Oleh CALORA
+							© {new Date().getFullYear()} LEVIOSA XII B | Di Kelola Oleh CALORAX
 						</p>
 					</div>
 				</div>
