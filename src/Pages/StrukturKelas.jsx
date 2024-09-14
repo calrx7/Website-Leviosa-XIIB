@@ -264,12 +264,12 @@ const StrukturKelas = () => {
 					data-aos="fade-up"
 					data-aos-duration="1100">
 					<div className="flex-col">
-						<BorderStruktur Jabatan="Kesehatan" Nama="Eki" Width="120px" />
+						<BorderStruktur Jabatan="Kesehatan" Nama="Siti Amelia Arsyad" Width="120px" ImgUrl="https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350" />
 						
 					</div>
 
 					<div className="flex-col">
-						<BorderStruktur Jabatan="Kesehatan" Nama="Hendri" Width="120px" />
+						
 					</div>
 				</div>
 
@@ -326,7 +326,7 @@ const StrukturKelas = () => {
 					</div>
 				</div>
 
-				<div className=" absolute bottom-[10%] lg:bottom-[15%] " data-aos="fade-up" data-aos-duration="1000">
+				<div className=" absolute bottom-[8%] lg:bottom-[13%] " data-aos="fade-up" data-aos-duration="1000">
 					<div className="flex justify-center items-center flex-col">
 						<img src="LineVertikal3.svg" alt="" className="lg:h-3" />
 						<img src="LineVertikal3.svg" alt="" className="lg:-z-50" />
@@ -347,9 +347,9 @@ const StrukturKelas = () => {
 						<img src="LineVertikal3.svg" alt="" className="lg:hidden" />
 						<img src="Circle.svg" alt="" className="relative top-[-0.7rem]" />
 						<div className="relative bottom-3">
-							<BorderStruktur Jabatan="Kesehatan" Nama="Amelia Arsyad" Width="120px" ImgUrl="https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350" />
+							<BorderStruktur Jabatan="Kesehatan" Nama="Siti Amelia Arsyad" Width="120px" ImgUrl="https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350" />
 							<div className="py-[3%]"></div>
-							<BorderStruktur Jabatan="" Nama="Hendri" Width="120px" />
+
 						</div>
 					</div>
 				</div> */}
