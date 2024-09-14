@@ -326,7 +326,7 @@ const StrukturKelas = () => {
 					</div>
 				</div>
 
-				<div className=" absolute bottom-[15%] lg:bottom-[20%] " data-aos="fade-up" data-aos-duration="1000">
+				<div className=" absolute bottom-[10%] lg:bottom-[15%] " data-aos="fade-up" data-aos-duration="1000">
 					<div className="flex justify-center items-center flex-col">
 						<img src="LineVertikal3.svg" alt="" className="lg:h-3" />
 						<img src="LineVertikal3.svg" alt="" className="lg:-z-50" />

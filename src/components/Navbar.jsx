@@ -47,7 +47,7 @@ const Navbar = () => {
 						</li>
 						<li>
 							<a href="#Tabs" className="text-white opacity-80 text-lg font-bold">
-								Structure & Schedule
+								Struktur & Jadwal
 							</a>
 						</li>
 					</ul>
@@ -72,7 +72,7 @@ const Navbar = () => {
 					</li>
 					<li>
 						<a href="#Tabs" className="text-white opacity-80 text-[1rem] font-semibold">
-							Structure & Schedule
+							Struktur & Jadwal
 						</a>
 					</li>
 				</ul>
