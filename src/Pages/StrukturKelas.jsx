@@ -65,21 +65,21 @@ const StrukturKelas = () => {
 				</div>
 
 				{/* wakil dan ketua */}
-				<div className="flex relative top-[-3rem]" data-aos="fade-up" data-aos-duration="1200">
-					<div className="relative left-[0.2rem]">
+				<div className="flex relative top-[-2.9rem]" data-aos="fade-up" data-aos-duration="1200">
+					<div className="relative left-[0.1rem]">
 						<BorderStruktur Jabatan="Ketua Kelas" Nama="Yung Mey Datau" Width="120px" ImgUrl="https://firebasestorage.googleapis.com/v0/b/leviosa-xii-b.appspot.com/o/Images%2Fketua.jpg?alt=media&token=9f2508f5-e3ca-4fc7-b217-211d7a35dce1" />
 					</div>
-					<img src="LineHorizontalPendek.svg" className="relative top-3" />
+					<img src="LineHorizontalPendek.svg" className="relative top-[3.6rem]" />
 					<img src="LineHorizontalPendek.svg" className="relative top-3 hidden lg:flex" />
 					<img src="LineHorizontalPendek.svg" className="relative top-3 hidden lg:flex" />
 					<img src="LineHorizontalPendek.svg" className="relative top-3 hidden lg:flex" />
-					<div className="relative right-[0.2rem]">
+					<div className="relative right-[0.1rem]">
 						<BorderStruktur Jabatan="Wakil Ketua" Nama="Jufri S. harun" Width="120px" ImgUrl="https://firebasestorage.googleapis.com/v0/b/leviosa-xii-b.appspot.com/o/Images%2Fwakilketua.jpg?alt=media&token=2d2599e5-057e-4d2f-8c93-a913066b581e" />
 					</div>
 				</div>
 
 				<div data-aos="fade-up" data-aos-duration="120" className="">
-					<img src="LineVertikal2.svg" alt="" className="relative top-[-3.8rem]" />
+					<img src="LineVertikal2.svg" alt="" className="relative top-[-3.5rem]" />
 				</div>
 
 				{/* Seketaris dan bendahara */}
@@ -87,7 +87,7 @@ const StrukturKelas = () => {
 					<img
 						src="LineHorizontal.svg"
 						alt=""
-						className="relative top-[-5.5rem]"
+						className="relative top-[-4.5rem]"
 						data-aos="fade-up"
 						data-aos-duration="600"
 					/>
@@ -110,14 +110,14 @@ const StrukturKelas = () => {
 				</div>
 
 				<div
-					className="flex gap-[10.6rem] relative top-[-6.45rem] lg:gap-[27.4rem]"
+					className="flex gap-[10.6rem] relative top-[-5.45rem] lg:gap-[27.4rem]"
 					data-aos="fade-up"
 					data-aos-duration="800">
 					<img src="LineKananKiri.svg" alt="" />
 					<img src="LineKananKiri.svg" alt="" />
 				</div>
 				<div
-					className="flex gap-[10.6rem] relative top-[-7.2rem] lg:gap-[27.4rem]"
+					className="flex gap-[10.6rem] relative top-[-6.2rem] lg:gap-[27.4rem]"
 					data-aos="fade-up"
 					data-aos-duration="1000">
 					<img src="Circle.svg" alt="" />
@@ -125,7 +125,7 @@ const StrukturKelas = () => {
 				</div>
 
 				<div
-					className="flex gap-[5rem] relative top-[-7.3rem] lg:gap-[22rem]"
+					className="flex gap-[5rem] relative top-[-6.3rem] lg:gap-[22rem]"
 					data-aos="fade-up"
 					data-aos-duration="1200">
 					<div className="flex-col">
@@ -141,7 +141,10 @@ const StrukturKelas = () => {
 					</div>
 				</div>
 
-				<div className="relative top-[-15rem]" data-aos="fade-up" data-aos-duration="900">
+				<div className="relative top-[-19.20rem]" data-aos="fade-up" data-aos-duration="900">
+					<img src="LineVertikal3.svg" alt="" />
+				</div>
+				<div className="relative top-[-19.20rem]" data-aos="fade-up" data-aos-duration="900">
 					<img src="LineVertikal3.svg" alt="" />
 				</div>
 
@@ -150,35 +153,35 @@ const StrukturKelas = () => {
 					<img
 						src="LineHorizontal.svg"
 						alt=""
-						className="relative top-[-16.5rem]"
+						className="relative top-[-20.20rem]"
 						data-aos="fade-up"
 						data-aos-duration="600"
 					/>
 					<img
 						src="LineHorizontal.svg"
 						alt=""
-						className="relative top-[-16.5rem] hidden lg:flex"
+						className="relative top-[-20.20rem] hidden lg:flex"
 						data-aos="fade-up"
 						data-aos-duration="600"
 					/>
 					<img
 						src="LineHorizontal.svg"
 						alt=""
-						className="relative top-[-16.5rem] hidden lg:flex"
+						className="relative top-[-20.20rem] hidden lg:flex"
 						data-aos="fade-up"
 						data-aos-duration="600"
 					/>
 					<img
 						src="LineHorizontal.svg"
 						alt=""
-						className="relative top-[-16.5rem] hidden lg:flex"
+						className="relative top-[-20.20rem] hidden lg:flex"
 						data-aos="fade-up"
 						data-aos-duration="600"
 					/>
 				</div>
 
 				<div
-					className="flex gap-[10.6rem] lg:gap-[23.1rem] relative top-[-17.44rem]"
+					className="flex gap-[10.6rem] lg:gap-[20.20rem] relative top-[-21.1rem]"
 					data-aos="fade-up"
 					data-aos-duration="800">
 					<img src="LineKananKiri.svg" alt="" />
@@ -186,7 +189,7 @@ const StrukturKelas = () => {
 					<img src="LineKananKiri.svg" alt="" className="hidden lg:flex" />
 				</div>
 				<div
-					className="flex gap-[10.6rem] relative top-[-18.3rem] lg:gap-[23.1rem]"
+					className="flex gap-[10.6rem] relative top-[-22.0rem] lg:gap-[23.1rem]"
 					data-aos="fade-up"
 					data-aos-duration="1000">
 					<img src="Circle.svg" alt="" />
@@ -195,7 +198,7 @@ const StrukturKelas = () => {
 				</div>
 
 				<div
-					className=" flex gap-[5rem] relative top-[-18.5rem] lg:gap-[17.5rem]"
+					className=" flex gap-[5rem] relative top-[-22.5rem] lg:gap-[17.5rem]"
 					data-aos="fade-up"
 					data-aos-duration="1100">
 					<div className="flex-col">
@@ -328,8 +331,11 @@ const StrukturKelas = () => {
 
 				<div className=" absolute bottom-[8%] lg:bottom-[13%] " data-aos="fade-up" data-aos-duration="1000">
 					<div className="flex justify-center items-center flex-col">
-						<img src="LineVertikal3.svg" alt="" className="lg:h-3" />
-						<img src="LineVertikal3.svg" alt="" className="lg:-z-50" />
+						<img src="LineVertikal3.svg" alt="" className="relative top-[6.0rem]" />
+						<img src="LineVertikal2.svg" alt="" className="relative top-[6.0rem]" />
+						<img src="LineVertikal2.svg" alt="" className="relative top-[6.0rem]" />
+						<img src="LineVertikal3.svg" alt="" className="relative top-[6.0rem]" />
+						<img src="LineVertikal3.svg" alt="" className="relative top-[6.0rem]" />
 						<img src="LineVertikal3.svg" alt="" className="lg:hidden" />
 						<img src="Circle.svg" alt="" className="relative top-[-0.7rem]" />
 						<div className="relative bottom-3">
@@ -359,3 +365,4 @@ const StrukturKelas = () => {
 }
 
 export default StrukturKelas
+			
