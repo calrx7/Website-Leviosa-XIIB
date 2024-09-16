@@ -21,11 +21,11 @@ const Schedule = () => {
 
     // Menentukan kelompok piket berdasarkan hari
     piketGroup = [
-        ["Yung Mey D.", "Deyanti P.", "Regita A.", "Irma Wati G.", "Kirana S. Duda", "Bayundari S.", "Lidyawati M.", "Moh Abijar M. Suaib"],
-        ["Tri Juliansi S.", "Fri Anisa O.", "Siti Amelia A.", "Fatma Maulana P.", "Fadlun H.", "Safrudin A.", "Moh Arsyad I."],
-        ["Siti Naysila E.", "Sintia A.", "Aulia O.", "Eca Putri Raden A.", "Kurnia B. Otoluwa", "Moh Jupri H.", "Muh. Arya Rido U."],
-        ["Vita Pratiwi R. Bau", "Selvina S.", "Siti Hartina L.", "Melda M.", "Yuningsih S. Ningko", "Moh Fajrin M.", "Aditya U."],
-        ["Salsabila L.", "Tiansi K.", "Afreta Ses", "Naysila Aulia Putri N.", "Nur Sintia H.", "Angel Prastiwi S.", "Aldi M."],
+        ["Yung Mey Datau", "Deyanti Pohiyalu", "Regita Akuba", "Irma Wati Gaib", "Kirana S. Duda", "Bayundari Suaiba", "Lidyawati Mustapa", "Moh Abijar M. Suaib"],
+        ["Tri Juliansi Sabu", "Fri Anisa Olii", "Siti Amelia Arsyad", "Fatma Maulana Panantu", "Fadlun Husain", "Safrudin Aambo", "Moh Arsyad Ibrahim"],
+        ["Siti Naysila Ente", "Sintia Abudi", "Aulia Otoluwa", "Eca Putri Raden Adimula", "Kurnia B. Otoluwa", "Moh Jupri Harun", "Muh. Arya Rido Udin"],
+        ["Vita Pratiwi R. Bau", "Selvina Sapari", "Siti Hartina Lapamalu", "Melda Mustapa", "Yuningsih S. Ningko", "Moh Fajrin Mosii", "Aditya Utina"],
+        ["Salsabila Lakusu", "Tiansi Karim", "Afreta Ses", "Naysila Aulia Putri Nasim", "Nur Sintia Hasan", "Angel Prastiwi Salehe", "Aldi Moha"],
     ]
 
     const dayComponents = [
