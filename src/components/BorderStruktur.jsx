@@ -3,13 +3,6 @@ const BorderStruktur = (props) => {
 	const Nama = props.Nama;
 	const Width = props.Width;
 	const ImgUrl = props.ImgUrl;  // Menambahkan properti untuk URL gambar
-
-	const disableRightClick = (e) => {
-		e.preventDefault();
-	};
-	const disableDownload = (e) => {
-		e.preventDefault();
-	};
 	
 	return (
 		<div className="flex flex-col justify-center items-center"> 
