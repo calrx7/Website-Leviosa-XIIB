@@ -1,28 +1,22 @@
-const BorderStruktur = (props) => {
-	const Jabatan = props.Jabatan;
-	const Nama = props.Nama;
-	const Width = props.Width;
-	const ImgUrl = props.ImgUrl;  // Menambahkan properti untuk URL gambar
+const BoxGallery = () => {
 
-	// Fungsi untuk menonaktifkan klik kanan
-	const disableRightClick = (e) => {
+    const disableRightClick = (e) => {
 		e.preventDefault();
 	};
-
-	// Fungsi untuk menonaktifkan dragging di PC dan long-press pada mobile
 	const disableDownload = (e) => {
 		e.preventDefault();
 	};
-
+	
 	return (
-		<div className="flex flex-col justify-center items-center"> 
-			<div className="text-white text-sm mb-1">{Jabatan}</div>
-			{ImgUrl && <img src={ImgUrl} alt={Nama} className="w-[80px] h-[80px] object-cover mb-2 rounded-full" onContextMenu={disableRightClick} onDragStart={disableDownload} onTouchStart={disableDownload}  />} 
-			<div className={`bg-white text-black rounded-3xl text-[0.8rem] px-2 py-[0.30rem] text-center font-semibold`} style={{ width: Width }}>
-				{Nama}
+		<div id="BoxGallery">
+			<div className="flex justify-between">
+				<img src="/upload.png" alt="" className="w-auto h-10 onDragStart={disableDownload} onTouchStart={disableDownload}" />
+				<img src="/next.png" alt="" className="h-5 w-5 onDragStart={disableDownload} onTouchStart={disableDownload}" />
 			</div>
+
+			<h1 className="text-white text-xl pr-3  mt-3">Class Gallery</h1>
 		</div>
 	)
 }
 
-export default BorderStruktur;
+export default BoxGallery
