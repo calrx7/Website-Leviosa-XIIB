@@ -22,4 +22,4 @@ const BorderStruktur = (props) => {
 	)
 }
 
-export default BorderStruktur;
+export default BorderStruktur
