@@ -85,6 +85,16 @@ const Carousel = () => {
 		setSelectedImage(null)
 	}
 
+	// Fungsi untuk menonaktifkan klik kanan (prevent context menu)
+	const disableRightClick = (e) => {
+		e.preventDefault()
+	}
+
+	// Fungsi untuk menonaktifkan dragging dan long-press
+	const disableDownload = (e) => {
+		e.preventDefault()
+	}
+
 	return (
 		<>
 			<div className="text-white opacity-60 text-base font-semibold mb-4 mx-[10%] mt-10 lg:text-center lg:text-3xl lg:mb-8" id="Galeri">
@@ -99,12 +109,13 @@ const Carousel = () => {
 							alt={`Image ${index}`}
 							onClick={() => handleImageClick(imageUrl)}
 							style={{ cursor: "pointer" }}
+							onContextMenu={disableRightClick} // Disable klik kanan (PC)
+							onDragStart={disableDownload} // Disable dragging (PC)
+							onTouchStart={disableDownload} // Disable long-press (Mobile)
 						/>
 					))}
 				</Slider>
 			</div>
-
-			
 
 			<Modal
 				open={open}
@@ -143,6 +154,9 @@ const Carousel = () => {
 							src={selectedImage}
 							alt="Selected Image"
 							style={{ maxWidth: "100%", maxHeight: "100vh" }}
+							onContextMenu={disableRightClick} // Disable klik kanan (PC)
+							onDragStart={disableDownload} // Disable dragging (PC)
+							onTouchStart={disableDownload} // Disable long-press (Mobile)
 						/>
 					</div>
 				</animated.div>
@@ -152,3 +166,4 @@ const Carousel = () => {
 }
 
 export default Carousel
+				
