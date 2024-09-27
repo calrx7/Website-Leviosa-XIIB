@@ -40,7 +40,7 @@ const Footer = () => {
 										Instagram
 									</a>
 								</li>
-									<a href="https://vm.tiktok.com/ZS29Whb5n/" class="hover:underline">
+									<a href="https://www.tiktok.com/@leviosatwelfthbee?_t=8q48jur66q0&_r=1" class="hover:underline">
 										TikTok
 									</a>
 								 <li>
