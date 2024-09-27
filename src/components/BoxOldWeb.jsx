@@ -2,7 +2,7 @@
 const BoxOldWeb = () => {
 	return (
 		<div id="BoxOldWeb">
-			<a href="https://vm.tiktok.com/ZS29Whb5n/">
+			<a href="https://www.tiktok.com/@leviosatwelfthbee?_t=8q48jur66q0&_r=1">
 				<div className="flex justify-between">
 					<img src="/link.svg" alt="" className="w-auto h-6" />
 					<img src="/next.png" alt="" className="h-3 w-3" />
