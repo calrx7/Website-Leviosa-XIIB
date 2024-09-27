@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [
     react(),
     Sitemap({
-      hostname: 'https://leviosaxiib.com', // Ganti dengan domain Anda
+      hostname: 'https://leviosaxiib.vercel.app', // Ganti dengan domain Anda
     }),
   ],
 });
