@@ -101,6 +101,7 @@ body {
 #root {
 	font-family: "Poppins", sans-serif;
 }
+
 #BoxGallery {
 	padding: 10%;
 	height: auto;
@@ -265,7 +266,7 @@ body {
 #Mesh1 {
 	width: 100%;
 	position: absolute;
-	background-image: radial-gradient(at -66% 56.8%, hsl(120, 93%, 53%) 0px, transparent 50%);
+	background-image: radial-gradient(at -66% 56.8%, rgba(107, 224, 213, 0.8520658263305322) 0%, 0px, transparent 50%);
 	background-repeat: no-repeat, no-repeat;
 	z-index: -999;
 }
@@ -278,7 +279,7 @@ body {
 
 
 #Tabs {
-	background-image: radial-gradient(at 122.3% 55.5%, hsla(120, 93%, 53%, 0.492) 0px, transparent 50%),
+	background-image: radial-gradient(at 122.3% 55.5%, rgba(107, 224, 213, 0.8520658263305322) 0px, transparent 50%),
 		radial-gradient(at 81.4% 65.2%, hsl(0, 0%, 12%) 0px, transparent 50%);
 }
 
@@ -403,8 +404,8 @@ input:focus {
 #Footer {
 	background: linear-gradient(
 		to top,
-		rgba(9, 229, 29, 0.39) 5%,
-		rgba(9, 229, 29, 0.149) 55%,
+		rgba(107, 224, 213, 0.8520658263305322) 5%,
+		rgba(57, 198, 198, 0.9052871148459384) 55%,
 		rgba(0, 0, 0, 0)
 	);
 }
@@ -489,4 +490,3 @@ input:focus {
 	background-image: radial-gradient(at 80% 100%, hsla(282, 97%, 43%, 0) 0px, transparent 50%),
 		radial-gradient(at 0% 0%, #ff4359 0px, transparent 60%);
 } */
-		
