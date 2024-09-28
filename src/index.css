@@ -6,13 +6,13 @@
 :root {
 	--primary-color: #575c84;
 	--secondary-color: #686e9d;
-	--tertiary-color: #e06bd5;
+	--tertiary-color: #6bd57a;
 	--quaternary-color: #18fff3;
 	--quinary-color: #ff775c;
 	--senary-color: #ff4359;
 	--septenary-color: #76ffb0;
 	--bg: #4b39c6;
-	--bg1: #e06bd5;
+	--bg1: #6bd57a;
 }
 
 html {
@@ -76,8 +76,8 @@ body {
 	height: auto;
 	background: radial-gradient(
 			circle,
-			rgba(224, 107, 213, 0.8520658263305322) 0%,
-			rgba(75, 57, 198, 0.9052871148459384) 100%
+			rgba(107, 224, 133, 0.85) 0%
+			rgba(57, 198, 75, 0.90) 100%
 		),
 		url("/Background.jpeg");
 	background-repeat: no-repeat;
@@ -266,7 +266,7 @@ body {
 #Mesh1 {
 	width: 100%;
 	position: absolute;
-	background-image: radial-gradient(at -66% 56.8%, hsl(292, 93%, 53%) 0px, transparent 50%);
+	background-image: radial-gradient(at -66% 56.8%, hsl(120, 93%, 53%) 0px, transparent 50%);
 	background-repeat: no-repeat, no-repeat;
 	z-index: -999;
 }
@@ -279,7 +279,7 @@ body {
 
 
 #Tabs {
-	background-image: radial-gradient(at 122.3% 55.5%, hsla(292, 93%, 53%, 0.492) 0px, transparent 50%),
+	background-image: radial-gradient(at 122.3% 55.5%, hsla(120, 93%, 53%, 0.492) 0px, transparent 50%),
 		radial-gradient(at 81.4% 65.2%, hsl(0, 0%, 12%) 0px, transparent 50%);
 }
 
@@ -404,8 +404,8 @@ input:focus {
 #Footer {
 	background: linear-gradient(
 		to top,
-		rgba(218, 9, 229, 0.39) 5%,
-		rgba(218, 9, 229, 0.149) 55%,
+		rgba(9, 229, 29, 0.39) 5%,
+		rgba(9, 229, 29, 0.149) 55%,
 		rgba(0, 0, 0, 0)
 	);
 }
@@ -490,3 +490,4 @@ input:focus {
 	background-image: radial-gradient(at 80% 100%, hsla(282, 97%, 43%, 0) 0px, transparent 50%),
 		radial-gradient(at 0% 0%, #ff4359 0px, transparent 60%);
 } */
+		
