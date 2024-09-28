@@ -76,8 +76,8 @@ body {
 	height: auto;
 	background: radial-gradient(
 			circle,
-			rgba(224, 107, 213, 0.8520658263305322) 0%,
-			rgba(75, 57, 198, 0.9052871148459384) 100%
+			rgba(107, 224, 213, 0.8520658263305322) 0%,
+			rgba(57, 198, 198, 0.9052871148459384) 100%
 		),
 		url("/Background.jpeg");
 	background-repeat: no-repeat;
@@ -101,7 +101,6 @@ body {
 #root {
 	font-family: "Poppins", sans-serif;
 }
-
 #BoxGallery {
 	padding: 10%;
 	height: auto;
