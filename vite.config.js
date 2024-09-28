@@ -8,7 +8,7 @@ export default defineConfig({
     react(),
     Pages(),
     Sitemap({
-      hostname: 'https://your-domain.com', // Ganti dengan domain Anda
+      hostname: 'https://leviosaxiib.vercel.app/', // Ganti dengan domain Anda
     }),
   ],
 });
