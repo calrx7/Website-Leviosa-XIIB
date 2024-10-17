@@ -20,13 +20,13 @@ const Footer = () => {
 							<h2 class="mb-4 text-sm font-semibold uppercase text-white">CREATED BY</h2>
 							<ul class="text-gray-400 dark:text-gray-400 font-medium">
 								<li class="mb-2">
-									<a href="https://www.instagram.com/leviosatwelfthbee/?hl=id" class="hover:underline">
-										Leviosa
+									<a href="https://www.instagram.com/ekizr_/?hl=id" class="hover:underline">
+										EKIZR
 									</a>
 								<li>
 								</li>
-								<a href="https://www.instagram.com/ditutinaa__/?hl=id" class="hover:underline">
-										CaloraX
+								<a href="https://www.instagram.com/dafyall/?hl=id" class="hover:underline">
+										DAFYALL
 									</a>
 								</li>
 							</ul>
